@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarte - Spotify</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="section">
+        <img class="logo" src="./img/5ece4ff9123d6d0004ce5f89.png" alt="spotify_logo">
+    </header>
+    <section class="section">
+        <div class="divform">
+            <h1 class="title">
+                    Regístrate gratis para escuchar.
+            </h1>
+        </div>
+        <div class="divform">
+            <a class="button1" href=""><img class="img" src="./img/PngItem_1339531.png" alt="">
+                Registrarte con Facebook
+            </a>
+        
+        </div>
+        <div class="divform">
+            <a class="button2" href=""><img class="img" src="./img/google-logo-9808.png" alt="">
+                Registrarte con Google
+            </a>
+        
+        </div>
+        <div class="divline">
+            <div class="line"></div>
+            <div class="or">o</div>
+            <div class="line"></div>
+        </div>
+    </section>
+    
+        
+    <section class="section">
+        <div class="divform1">
+            <h2 class="title2">Registrarte con tu correo electrónico</h2>
+        </div>
+        <form action=""></form>
+        <div class="divform1">
+            <label for="mail">¿Cuál es tu correo electrónico?
+            </label>
+            <input class="input" type="email" placeholder="Pon tu correo electrónico." required>
+        </div>
+        <div class="divform1">
+            <label for="mail_confirm">Confirma el correo electrónico</label>
+            <input class="input" type="email" placeholder="Vuelve a poner tu correo electrónico." required>
+        </div>
+        <div class="divform1">
+            <label for="password">Crea una contraseña</label>
+            <input class="input" type="password" minlength="8"  placeholder="Crea una contraseña." required>
+        </div>
+        <div class="divform1">
+            <label for="name">¿Cómo quieres que te llamemos?</label>
+            <input class="input" type="text" placeholder="Pon un nombre de perfil." pattern="[A-Za-z]{3,15}" required>
+            <p  class="p1">Esto aparece en tu perfil.</p>
+        </div>
+        <div class="divform1">
+            <label for="date">¿Cuál es tu fecha de nacimiento?</label>
+            <div class="divform3">
+                <div>
+                    <label for="day">Dia</label>
+                    <input class="input2" type="number" min="1" max="31" placeholder="DD" required>
+                </div>
+                <div>
+                    <label class="monthlabel" for="month">Mes</label>
+                    <select class="input3" name="month" id="month" required>
+                        <option value="">Mes</option>
+                        <option value="1">Enero</option>
+                        <option value="2">Febrero</option>
+                        <option value="3">Marzo</option>
+                        <option value="4">Abril</option>
+                        <option value="5">Mayo</option>
+                        <option value="6">Junio</option>
+                        <option value="7">Julio</option>
+                        <option value="8">Agosto</option>
+                        <option value="9">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="year">Año</label>
+                    <input class="input2" type="number" min="1900" max="2023" placeholder="AAAA" required>
+                </div>
+            </div>
+        </div>
+        <div class="divform2">
+            <label for="gender">¿Cuál es tu género?</label>
+            <input class="radio" type="radio" name="gender">Hombre
+            <input class="radio2" type="radio" name="gender">Mujer
+            <input class="radio2" type="radio" name="gender">No binario
+            <input class="radio2" type="radio" name="gender">Otro<br>
+            <input class="radio" type="radio" name="gender">Prefiero no responder
+        </div>
+        <div class="divform2">
+            <label for="news_offers"></label>
+            <input class="checkbox" type="checkbox">Quiero que me enviéis novedades y ofertas de Spotify
+        </div>
+        <div class="divform2">
+            <label for="share_data"></label>
+            <input class="checkbox" type="checkbox">Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser transferidos a un país de fuera del EEE, tal y como se recoge en nuestra Política de Privacidad.
+        </div>
+        <div class="divform4">
+            <p>Al hacer clic en Registrarte, aceptas los <a class="link" href="">Términos y condiciones de uso</a> de Spotify.</p>
+        </div>
+        <div class="divform4">
+            <p>Para obtener más información acerca de cómo Spotify recopila, utiliza, comparte y protege tus datos personales, consulta la <a class="link" href="">Política de privacidad</a> de Spotify.</p>
+        </div>
+        <div class="divform5">
+            <input class="button3" type="submit" value="Registrarte">
+        </div>
+        <div class="divform5">
+            <p class="p2">¿Ya tienes cuenta? <a class="link" href="">Inicia sesión</a>.</p>
+        </div>
+    </section>
+</body>
+</html>
